@@ -1,3 +1,5 @@
+# LEGACY_COMPATIBILITY release channel: version, URL and checksum intentionally unchanged.
+# Canonical implementation/provenance is olsisoft/pulse; no new public release is implied.
 # Homebrew formula for the Pulse CLI.
 #
 # This lives here as the canonical source; to publish it, copy it into a tap repo you own
@@ -14,7 +16,7 @@
 # per-arch `url`/`sha256` and drop the java dependency. See docs/PULSE-CLI-DISTRIBUTION.md.
 class Pulse < Formula
   desc "Pulse — declare a real-time app in YAML; it compiles to an API, SDKs and a UI"
-  homepage "https://github.com/olsisoft/streamflow"
+  homepage "https://github.com/olsisoft/pulse"
   version "2.7.7"
   # Source repo is PRIVATE — the jar is fetched through the public release proxy, not github.com.
   url "https://updates.streamflowmesh.io/download/pulse-cli-v2.7.7/streamflow-pulse.jar"
